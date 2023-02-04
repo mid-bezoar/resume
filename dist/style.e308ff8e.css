@@ -39,7 +39,7 @@ h6 {
 
 strong {
   font-weight: normal;
-  color: #f60;
+  color: rgb(25, 194, 216);
 }
 
 a {
@@ -79,7 +79,7 @@ h6 {
 }
 
 .projects strong {
-  color: #f60;
+  color: rgb(25, 194, 216);
 }
 
 .projects > ol {
@@ -89,12 +89,11 @@ h6 {
 }
 
 .projects > ol > li {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
-.projects > ol > li > header {
-  display: flex;
-  justify-content: space-between;
+.projects > ol > li > .link {
+  margin-top: 5px;
 }
 
 .projects > ol > li h3 {
@@ -111,10 +110,8 @@ h6 {
   margin-bottom: 24px;
 }
 
-.openSource header {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+.openSource > ul > li > .link {
+  margin-top: 5px;
 }
 
 .jobs > ol > li {
@@ -154,11 +151,8 @@ h6 {
 
 .skills > .wrapper {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-}
-
-.skills > .wrapper > :first-child {
-  margin-right: 24px;
 }
 
 .skills > .wrapper > ul {
@@ -166,12 +160,16 @@ h6 {
 }
 
 .skills > .wrapper strong {
-  color: #f60;
+  color: rgb(25, 194, 216);
 }
 
 .skills > .wrapper > ul > li {
   line-height: 1.2;
   margin-bottom: 8px;
+}
+
+.skills > img {
+  margin-right: 10px;
 }
 
 

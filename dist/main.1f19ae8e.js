@@ -156,7 +156,7 @@ var option = {
     type: 'radar',
     // areaStyle: {normal: {}},
     data: [{
-      value: [70, 70, 80, 80, 50],
+      value: [90, 90, 85, 80, 95],
       name: '能力雷达'
     }]
   }]
@@ -191,7 +191,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "9733" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "11860" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

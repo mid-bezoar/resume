@@ -1,6 +1,5 @@
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('skills'))
-
 // 指定图表的配置项和数据
 var option = {
   tooltip: {},
@@ -30,7 +29,7 @@ var option = {
       // areaStyle: {normal: {}},
       data: [
         {
-          value: [70, 70, 80, 80, 50],
+          value: [90, 90, 85, 80, 95],
           name: '能力雷达'
         }
       ]
